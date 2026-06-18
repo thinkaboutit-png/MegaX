@@ -1,0 +1,32 @@
+# Klipper / Moonraker
+saved_variables.cfg
+printer-[0-9]*_[0-9]*.cfg
+.moonraker.uuid
+moonraker.db
+database.mdb
+lock.mdb
+
+# Logs and temporary files
+*.log
+klippy.log
+*.tmp
+*.bak
+*.backup
+logs/
+
+# Input shaper / resonance data
+*.csv
+adxl_results/
+
+# Editor / OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Large or unnecessary files
+*.zip
+*.gz
+
+# G-Code files
+gcodes/
