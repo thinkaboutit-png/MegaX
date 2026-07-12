@@ -6,27 +6,25 @@ moonraker.db
 database.mdb
 lock.mdb
 
-# Logs and temporary files
+# Directories - fully ignore
+comms/
+database/
+logs/
+gcodes/
+adxl_results/
+.vscode/
+.idea/
+
+# Individual patterns
 *.log
 klippy.log
 *.tmp
 *.bak
 *.backup
-logs/
-
-# Input shaper / resonance data
 *.csv
-adxl_results/
-
-# Editor / OS files
-.DS_Store
-Thumbs.db
-.vscode/
-.idea/
-
-# Large or unnecessary files
 *.zip
 *.gz
 
-# G-Code files
-gcodes/
+# OS / Editor
+.DS_Store
+Thumbs.db
